@@ -1,0 +1,201 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/assets/img/sfondo.png);
+}
+
+/* HEADER */
+header {
+  margin-left: 2em;
+  margin-right: 2em;
+  color: white;
+  text-align: center;
+}
+.header {
+  background: rgb(0, 95, 127);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 95, 127, 1) 9%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.1);
+}
+img {
+  width: 50%;
+  padding: 2em;
+}
+#head1 {
+  margin-bottom: 1.5em;
+  font-weight: 800;
+}
+
+#menu {
+  padding-bottom: 3em;
+  font-weight: 800;
+}
+.menu {
+  margin-bottom: 0.5em;
+}
+/* MAIN */
+main {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  background-color: white;
+  box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.1);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+}
+.title h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+#title {
+  margin-bottom: 1em;
+}
+.title h4 {
+  color: gray;
+  font-size: large;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+#first_text {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#second_text {
+  margin-bottom: 2em;
+}
+
+#list_dis {
+  padding-left: 2em;
+  list-style: disc;
+  margin-bottom: 2em;
+}
+.list_dis {
+  margin-bottom: 10px;
+}
+#terzo_text {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#list_ord {
+  padding-left: 2em;
+  list-style: decimal;
+  margin-bottom: 2em;
+}
+
+.list_ord {
+  margin-bottom: 10px;
+}
+
+#quarto_text {
+  margin-bottom: 2em;
+}
+
+#quinto_testo {
+  margin-bottom: 2em;
+}
+#video {
+  border-radius: 50px;
+  margin-bottom: 2em;
+}
+
+/* TABELLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 2em;
+}
+
+caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+thead {
+  background-color: #f2f2f2; /* Colore di sfondo per l'intestazione */
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #3966c7;
+  width: 4rem; /* Colore di sfondo per le celle dell'intestazione */
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Colore di sfondo per le righe pari */
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0; /* Colore di sfondo al passaggio del mouse */
+}
+
+/* FORM */
+#form {
+  background-color: #eae0e2;
+  padding-left: 1em;
+}
+#form1 {
+  text-align: center;
+  padding: 0.5em;
+  font-size: 2em;
+}
+#form2 {
+  padding: 0.5em;
+  font-size: 1em;
+}
+form {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+input {
+  display: inline;
+}
+button {
+  display: inline;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  background: rgb(1, 85, 102);
+  background: linear-gradient(
+    0deg,
+    rgba(1, 85, 102, 1) 74%,
+    rgba(2, 166, 199, 1) 100%
+  );
+  color: white;
+}
+#footer1 {
+  text-align: center;
+  padding-top: 1em;
+  margin-bottom: 2em;
+}
+
+#footer2 {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  padding-bottom: 2em;
+}
