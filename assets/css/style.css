@@ -1,15 +1,21 @@
 /* IMPOSTAZIONI GENERALI */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(/assets/img/sfondo.png);
+  background-position: center center;
 }
 
 /* HEADER */
 header {
+  margin-top: 1em;
   margin-left: 2em;
   margin-right: 2em;
   color: white;
@@ -25,20 +31,22 @@ header {
   box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.1);
 }
 img {
-  width: 50%;
+  width: 40%;
   padding: 2em;
 }
 #head1 {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   font-weight: 800;
+  font-size: 2em;
 }
 
 #menu {
   padding-bottom: 3em;
   font-weight: 800;
+  font-size: 1.7;
 }
 .menu {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.7em;
 }
 /* MAIN */
 main {
@@ -54,13 +62,14 @@ main {
 .title h1 {
   font-size: 2em;
   font-weight: 800;
+  font-size: 3em;
 }
 #title {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 .title h4 {
   color: gray;
-  font-size: large;
+  font-size: 1.5em;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -106,6 +115,10 @@ main {
   border-radius: 50px;
   margin-bottom: 2em;
 }
+.video {
+  display: inline;
+  padding: 2em;
+}
 
 /* TABELLE */
 table {
@@ -150,6 +163,8 @@ tbody tr:hover {
 #form {
   background-color: #eae0e2;
   padding-left: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 #form1 {
   text-align: center;
@@ -167,12 +182,40 @@ form {
 }
 input {
   display: inline;
+  border-bottom: 1px dotted black;
 }
 button {
   display: inline;
+  background-color: #3966c7;
+  color: white;
+  border-radius: 12px;
+  margin-left: 1em;
 }
 
 /* ELEMENTI NELL' ASIDE */
+
+aside h4 {
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+.sezionesecondaria {
+  margin-bottom: 0.8em;
+  background-color: rgb(206, 202, 202);
+  padding: 2em;
+}
+
+.aside_title {
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.aside_date {
+  text-align: right;
+}
 
 /* FOOTER */
 footer {
@@ -189,13 +232,16 @@ footer {
 }
 #footer1 {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 2em;
+  padding-left: 1em;
   margin-bottom: 2em;
 }
 
 #footer2 {
   padding-left: 1em;
   padding-right: 1em;
+  padding-left: 1em;
   text-align: center;
   padding-bottom: 2em;
+  margin-bottom: 1em;
 }
